@@ -45,14 +45,14 @@
     list-style: none;
     margin: 0;
     padding: 0;
-    display: grid;
     gap: 20px;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   }
 
   .cards li {
-    border: 1px solid #000;
-
+    border: 5px solid #000;
+    margin: 10px;
+    
     padding: 10px;
   }
 
